@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c2bd6da-6123-4700-bda9-59a8fa50e838" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/translator/controller/ServiceApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/translator/controller/TranslatorController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/translator/test/FunctionalTranslatorTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/translate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/translate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/translator/test/FunctionalTranslatorTest.java" afterPath="$PROJECT_DIR$/src/main/java/translator/test/FunctionalTranslatorTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +28,8 @@
       <file leaf-file-name="FunctionalTranslatorTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/translator/test/FunctionalTranslatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            <state relative-caret-position="270">
+              <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,8 +40,8 @@
       <file leaf-file-name="TranslatorController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/translator/controller/TranslatorController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+            <state relative-caret-position="209">
+              <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,9 +52,11 @@
       <file leaf-file-name="ServiceApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/translator/controller/ServiceApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="5" column="68" lean-forward="false" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
-              <folding />
+            <state relative-caret-position="137">
+              <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,7 +64,7 @@
       <file leaf-file-name="translate.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/translate.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
+            <state relative-caret-position="360">
               <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
               <folding />
             </state>
@@ -76,8 +74,8 @@
       <file leaf-file-name="translate.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/translate.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="105">
+              <caret line="7" column="68" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -1085,7 +1083,7 @@
       <workItem from="1558964892481" duration="414000" />
       <workItem from="1561350972545" duration="1591000" />
       <workItem from="1561352611010" duration="1041000" />
-      <workItem from="1561650511439" duration="4637000" />
+      <workItem from="1561650511439" duration="6255000" />
     </task>
     <servers />
   </component>
@@ -1096,17 +1094,8 @@
     <history-entry file="FunctionalTranslatorTest - 2019.06.27 at 12h 12m 31s.xml">
       <configuration name="FunctionalTranslatorTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FunctionalTranslatorTest_loadTest - 2019.06.27 at 10h 52m 26s.xml">
-      <configuration name="FunctionalTranslatorTest.loadTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FunctionalTranslatorTest_loadTest - 2019.06.27 at 10h 53m 05s.xml">
-      <configuration name="FunctionalTranslatorTest.loadTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FunctionalTranslatorTest_loadTest - 2019.06.27 at 11h 00m 09s.xml">
-      <configuration name="FunctionalTranslatorTest.loadTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FunctionalTranslatorTest_loadTest - 2019.06.27 at 11h 06m 23s.xml">
-      <configuration name="FunctionalTranslatorTest.loadTest" configurationId="TestNG" />
+    <history-entry file="FunctionalTranslatorTest - 2019.06.27 at 12h 31m 07s.xml">
+      <configuration name="FunctionalTranslatorTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="FunctionalTranslatorTest_loadTest - 2019.06.27 at 11h 14m 51s.xml">
       <configuration name="FunctionalTranslatorTest.loadTest" configurationId="TestNG" />
@@ -1120,9 +1109,18 @@
     <history-entry file="FunctionalTranslatorTest_loadTest - 2019.06.27 at 12h 14m 27s.xml">
       <configuration name="FunctionalTranslatorTest.loadTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="FunctionalTranslatorTest_loadTest - 2019.06.27 at 12h 20m 35s.xml">
+      <configuration name="FunctionalTranslatorTest.loadTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FunctionalTranslatorTest_loadTest - 2019.06.27 at 12h 29m 52s.xml">
+      <configuration name="FunctionalTranslatorTest.loadTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FunctionalTranslatorTest_loadTest - 2019.06.27 at 12h 35m 04s.xml">
+      <configuration name="FunctionalTranslatorTest.loadTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157035000" />
+    <option name="totallyTimeSpent" value="158653000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="30" y="23" width="1250" height="724" extended-state="0" />
@@ -1303,40 +1301,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/translate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/translate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/translator/controller/ServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="5" column="68" lean-forward="false" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/translator/controller/TranslatorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/translator/test/TranslatorImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
@@ -1347,10 +1311,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/translator/controller/ServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/translator/controller/TranslatorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/translate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="68" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/translate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/translator/test/FunctionalTranslatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        <state relative-caret-position="270">
+          <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
