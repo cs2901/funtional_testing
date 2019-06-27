@@ -9,16 +9,17 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class FunctionalTranslatorTest {
-    @Test(invocationCount = 1, threadPoolSize = 1)
+    @Test(invocationCount = 10, threadPoolSize = 5)
     public void loadTest() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "/Users/jesus/Downloads/chromedriver");
         System.out.printf("%n[START] Thread Id : %s is started!",Thread.currentThread().getId());
         ChromeDriver driver = new ChromeDriver(DesiredCapabilities.chrome());
         driver.get("file:///Users/jesus/Documents/GitHubEducation/cs2901/funtional_testing/src/main/resources/translate.html");
-        driver.findElement(By.id("from")).sendKeys("value", "EN");
-        driver.findElement(By.id("to")).sendKeys("value", "ES");
-        driver.findElement(By.id("text")).sendKeys("value", "Hello World");
-        driver.wait(1000);
+        driver.findElement(By.id("from")).sendKeys("EN");
+        driver.findElement(By.id("to")).sendKeys( "ES");
+        driver.findElement(By.id("text")).sendKeys("Hello World");
+        driver.findElement(By.id("btnTranslate")).click();
+
         System.out.printf("%n[END] Thread Id : %s",Thread.currentThread().getId());
         driver.quit();
 
