@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cs2019.calculator" />
+        <module name="cs2019.translator" />
+        <module name="scheduke.service" />
+        <module name="styg3.backend" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cs2019.calculator" target="1.8" />
+      <module name="cs2019.translator" target="1.8" />
+      <module name="scheduke.service" target="1.8" />
+      <module name="styg3.backend" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

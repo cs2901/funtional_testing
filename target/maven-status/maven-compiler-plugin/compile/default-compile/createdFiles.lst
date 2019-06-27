@@ -1,0 +1,5 @@
+calculator/business/TranslatorImpl.class
+calculator/entities/Language.class
+calculator/test/TranslatorImplTest.class
+calculator/business/Translator.class
+calculator/Main.class

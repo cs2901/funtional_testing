@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="translate.js"></script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td><input type="text" id="from" size="2"></td>
+        </tr>
+        <tr>
+            <td><input type="text" id="to" size="2"></td>
+        </tr>
+        <tr>
+            <td><input type="text" id="text" size="30"></td>
+        </tr>
+        <tr>
+            <td><button value="Translate" onclick="translate()" /></td>
+        </tr>
+    </table>
+<script>
+    function translate(){
+        var from = $('#from').val();
+        var to = $('#to').val();
+        var text = $('#text').val();
+
+
+        $.ajax({
+            url:'http://localhost:8080/translate/'+from+"/"+to+"/"+text,
+            type:'GET',
+            success: function(response){
+                alert(response)
+                //$('#action').html(response['statusText']);
+            },
+            error: function(response){
+                alert(response);
+            }
+        });
+    }
+</script>
+</body>
+</html>
