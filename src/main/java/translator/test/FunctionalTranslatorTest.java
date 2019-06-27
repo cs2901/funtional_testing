@@ -9,7 +9,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class FunctionalTranslatorTest {
-    @Test(invocationCount = 10, threadPoolSize = 5)
+    @Test(invocationCount = 1, threadPoolSize = 1)
     public void loadTest() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "/Users/jesus/Downloads/chromedriver");
         System.out.printf("%n[START] Thread Id : %s is started!",Thread.currentThread().getId());

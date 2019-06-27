@@ -1,18 +1,17 @@
-function translate(){
+function do_translate() {
     var from = $('#from').val();
     var to = $('#to').val();
     var text = $('#text').val();
 
 
     $.ajax({
-        url:'http://localhost:8080/translate/'+from+"/"+to+"/"+text,
+        url:'http://localhost:8080/translator/'+from+"/"+to+"/"+text,
         type:'GET',
         success: function(response){
-            alert(response)
-            //$('#action').html(response['statusText']);
+            $('#translated').val(response);
         },
         error: function(response){
-            alert(response);
+            $('#translated').val(response);
         }
     });
 }
