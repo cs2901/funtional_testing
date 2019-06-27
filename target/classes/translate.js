@@ -8,9 +8,11 @@ function do_translate() {
         url:'http://localhost:8080/translator/'+from+"/"+to+"/"+text,
         type:'GET',
         success: function(response){
+            $('#translated').show();
             $('#translated').val(response);
         },
         error: function(response){
+            $('#translated').show();
             $('#translated').val(response);
         }
     });
