@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c2bd6da-6123-4700-bda9-59a8fa50e838" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/chromedriver" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/en_es.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/translator/test/FunctionalTranslatorTest.class" afterPath="$PROJECT_DIR$/target/classes/translator/test/FunctionalTranslatorTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/es_en.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/translator/test/FunctionalTranslatorTest.java" afterPath="$PROJECT_DIR$/src/main/java/translator/test/FunctionalTranslatorTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/en_es.csv" afterPath="$PROJECT_DIR$/src/main/resources/en_es.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/en_es.csv" afterPath="$PROJECT_DIR$/target/classes/en_es.csv" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,34 +18,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/translator/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FunctionalTranslatorTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FunctionalTranslatorTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/translator/test/FunctionalTranslatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="39" column="50" lean-forward="true" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
+            <state relative-caret-position="168">
+              <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#756#772#0" expanded="true" />
+                <element signature="e#694#710#0" expanded="true" />
+                <element signature="e#760#776#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="en_es.csv" pinned="false" current-in-tab="true">
+      <file leaf-file-name="en_es.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/en_es.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+            <state relative-caret-position="135">
+              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="es_en.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/es_en.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14835">
+              <caret line="989" column="15" lean-forward="true" selection-start-line="989" selection-start-column="15" selection-end-line="989" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -90,11 +91,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-              <folding>
-                <marker date="1561669459000" expanded="true" signature="709:771" ph="..." />
-                <marker date="1561669459000" expanded="true" signature="709:784" ph="..." />
-                <marker date="1561669459000" expanded="true" signature="709:792" ph="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,9 +101,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-              <folding>
-                <marker date="1561669459000" expanded="true" signature="261:292" ph="{...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -161,6 +156,7 @@
       <find>for</find>
       <find>historico</find>
       <find>test</find>
+      <find>dicEn2Es</find>
     </findStrings>
     <replaceStrings>
       <replace>facturainteligente.cl</replace>
@@ -177,7 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/data/repositories/BoletaRepository.java" />
         <option value="$PROJECT_DIR$/src/main/resources/init.sql" />
         <option value="$PROJECT_DIR$/src/main/java/data/repositories/PeriodoRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/business/tarificacion/PeriodoService.java" />
@@ -226,8 +221,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/translate.js" />
         <option value="$PROJECT_DIR$/src/main/resources/translate.html" />
-        <option value="$PROJECT_DIR$/src/main/java/translator/test/FunctionalTranslatorTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/en_es.csv" />
+        <option value="$PROJECT_DIR$/src/main/resources/es_en.csv" />
+        <option value="$PROJECT_DIR$/src/main/java/translator/test/FunctionalTranslatorTest.java" />
       </list>
     </option>
   </component>
@@ -373,7 +369,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.FunctionalTranslatorTest.loadTest">
+  <component name="RunManager" selected="TestNG.FunctionalTranslatorTest.loadTestSpanishEnglish">
     <configuration name="FunctionalTranslatorTest (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -470,6 +466,38 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="FunctionalTranslatorTest.loadTestSpanishEnglish" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="translator.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="cs2019.translator" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="translator.test" />
+      <option name="MAIN_CLASS_NAME" value="translator.test.FunctionalTranslatorTest" />
+      <option name="METHOD_NAME" value="loadTestSpanishEnglish" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration name="ServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -486,38 +514,6 @@
       <option name="SPRING_BOOT_MAIN_CLASS" value="controller.ServiceApplication" />
       <module name="scheduke.service" />
       <envs />
-    </configuration>
-    <configuration name="TranslatorImplTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="translator.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="cs2019.translator" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="calculator.test" />
-      <option name="MAIN_CLASS_NAME" value="translator.test.TranslatorImplTest" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -915,19 +911,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.ServiceApplication" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.TranslatorImplTest" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.FunctionalTranslatorTest.loadTest" />
-      <item index="3" class="java.lang.String" itemvalue="Spring Boot.ServiceApplication (1)" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.FunctionalTranslatorTest" />
-      <item index="5" class="java.lang.String" itemvalue="TestNG.FunctionalTranslatorTest (1)" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.FunctionalTranslatorTest.loadTest" />
+      <item index="2" class="java.lang.String" itemvalue="Spring Boot.ServiceApplication (1)" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.FunctionalTranslatorTest" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.FunctionalTranslatorTest (1)" />
+      <item index="5" class="java.lang.String" itemvalue="TestNG.FunctionalTranslatorTest.loadTestSpanishEnglish" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.FunctionalTranslatorTest.loadTest" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.FunctionalTranslatorTest (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Spring Boot.ServiceApplication (1)" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.FunctionalTranslatorTest" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.TranslatorImplTest" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.FunctionalTranslatorTest.loadTestSpanishEnglish" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.FunctionalTranslatorTest.loadTest" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.FunctionalTranslatorTest (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Spring Boot.ServiceApplication (1)" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.FunctionalTranslatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -960,32 +956,11 @@
       <workItem from="1561350972545" duration="1591000" />
       <workItem from="1561352611010" duration="1041000" />
       <workItem from="1561650511439" duration="7502000" />
-      <workItem from="1561660337272" duration="4527000" />
+      <workItem from="1561660337272" duration="6290000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FunctionalTranslatorTest_(1) - 2019.06.27 at 16h 39m 55s.xml">
-      <configuration name="FunctionalTranslatorTest (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FunctionalTranslatorTest_(1) - 2019.06.27 at 16h 40m 47s.xml">
-      <configuration name="FunctionalTranslatorTest (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FunctionalTranslatorTest_(1) - 2019.06.27 at 16h 42m 50s.xml">
-      <configuration name="FunctionalTranslatorTest (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FunctionalTranslatorTest_(1) - 2019.06.27 at 16h 43m 48s.xml">
-      <configuration name="FunctionalTranslatorTest (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FunctionalTranslatorTest_(1) - 2019.06.27 at 16h 45m 36s.xml">
-      <configuration name="FunctionalTranslatorTest (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FunctionalTranslatorTest_loadTest - 2019.06.27 at 17h 11m 59s.xml">
-      <configuration name="FunctionalTranslatorTest.loadTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FunctionalTranslatorTest_loadTest - 2019.06.27 at 17h 14m 17s.xml">
-      <configuration name="FunctionalTranslatorTest.loadTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="FunctionalTranslatorTest_loadTest - 2019.06.27 at 17h 14m 27s.xml">
       <configuration name="FunctionalTranslatorTest.loadTest" configurationId="TestNG" />
     </history-entry>
@@ -995,9 +970,30 @@
     <history-entry file="FunctionalTranslatorTest_loadTest - 2019.06.27 at 17h 14m 56s.xml">
       <configuration name="FunctionalTranslatorTest.loadTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="FunctionalTranslatorTest_loadTest - 2019.06.27 at 20h 44m 00s.xml">
+      <configuration name="FunctionalTranslatorTest.loadTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FunctionalTranslatorTest_loadTest - 2019.06.27 at 20h 44m 47s.xml">
+      <configuration name="FunctionalTranslatorTest.loadTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FunctionalTranslatorTest_loadTest - 2019.06.27 at 20h 51m 14s.xml">
+      <configuration name="FunctionalTranslatorTest.loadTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FunctionalTranslatorTest_loadTest - 2019.06.27 at 21h 06m 30s.xml">
+      <configuration name="FunctionalTranslatorTest.loadTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FunctionalTranslatorTest_loadTest - 2019.06.27 at 21h 08m 02s.xml">
+      <configuration name="FunctionalTranslatorTest.loadTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FunctionalTranslatorTest_loadTest - 2019.06.27 at 21h 08m 59s.xml">
+      <configuration name="FunctionalTranslatorTest.loadTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FunctionalTranslatorTest_loadTestSpanishEnglish - 2019.06.27 at 21h 09m 21s.xml">
+      <configuration name="FunctionalTranslatorTest.loadTestSpanishEnglish" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166421000" />
+    <option name="totallyTimeSpent" value="168184000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="30" y="23" width="1463" height="885" extended-state="0" />
@@ -1020,6 +1016,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2781955" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32472324" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1054,7 +1051,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31404322" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32594937" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
     </layout>
@@ -1091,7 +1087,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/data/entities/Campus.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/itextpdf/itextpdf/5.5.6/itextpdf-5.5.6.jar!/com/itextpdf/text/pdf/PdfPTable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1452">
@@ -1210,28 +1205,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/translate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-          <folding>
-            <marker date="1561669459000" expanded="true" signature="261:292" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/translate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding>
-            <marker date="1561669459000" expanded="true" signature="709:771" ph="..." />
-            <marker date="1561669459000" expanded="true" signature="709:784" ph="..." />
-            <marker date="1561669459000" expanded="true" signature="709:792" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/translator/test/TranslatorImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1242,22 +1215,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/translator/test/FunctionalTranslatorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/translate.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="39" column="50" lean-forward="true" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#756#772#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/translate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/en_es.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        <state relative-caret-position="135">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/es_en.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14835">
+          <caret line="989" column="15" lean-forward="true" selection-start-line="989" selection-start-column="15" selection-end-line="989" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/translator/test/FunctionalTranslatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#694#710#0" expanded="true" />
+            <element signature="e#760#776#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
